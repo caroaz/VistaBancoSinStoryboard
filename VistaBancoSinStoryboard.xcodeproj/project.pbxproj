@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258D28EC27FDE5FD00399EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D28EB27FDE5FD00399EE7 /* AppDelegate.swift */; };
+		258D28F027FDE5FD00399EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D28EF27FDE5FD00399EE7 /* ViewController.swift */; };
+		258D28F527FDE5FE00399EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258D28F427FDE5FE00399EE7 /* Assets.xcassets */; };
+		258D28F827FDE5FE00399EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258D28F627FDE5FE00399EE7 /* LaunchScreen.storyboard */; };
+		258D290327FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D290227FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.swift */; };
+		258D290D27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D290C27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.swift */; };
+		258D290F27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D290E27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITestsLaunchTests.swift */; };
+		258D291C27FDE91E00399EE7 /* UiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D291B27FDE91E00399EE7 /* UiViewExtension.swift */; };
+		258D291F27FDEBF500399EE7 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D291E27FDEBF500399EE7 /* DetailViewCell.swift */; };
+		258D292127FE24FE00399EE7 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292027FE24FE00399EE7 /* CardViewCell.swift */; };
+		258D292327FF1D3300399EE7 /* OtherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292227FF1D3300399EE7 /* OtherViewCell.swift */; };
+		258D292527FF4A9800399EE7 /* BudgetsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292427FF4A9800399EE7 /* BudgetsViewCell.swift */; };
+		258D292727FF6C7500399EE7 /* vc1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292627FF6C7500399EE7 /* vc1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		258D28FF27FDE5FE00399EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 258D28E027FDE5FD00399EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 258D28E727FDE5FD00399EE7;
+			remoteInfo = VistaBancoSinStoryboard;
+		};
+		258D290927FDE5FF00399EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 258D28E027FDE5FD00399EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 258D28E727FDE5FD00399EE7;
+			remoteInfo = VistaBancoSinStoryboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		258D28E827FDE5FD00399EE7 /* VistaBancoSinStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistaBancoSinStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		258D28EB27FDE5FD00399EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		258D28EF27FDE5FD00399EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		258D28F427FDE5FE00399EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		258D28F727FDE5FE00399EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		258D28F927FDE5FE00399EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258D28FE27FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VistaBancoSinStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		258D290227FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaBancoSinStoryboardTests.swift; sourceTree = "<group>"; };
+		258D290827FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VistaBancoSinStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		258D290C27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaBancoSinStoryboardUITests.swift; sourceTree = "<group>"; };
+		258D290E27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaBancoSinStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		258D291B27FDE91E00399EE7 /* UiViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewExtension.swift; sourceTree = "<group>"; };
+		258D291E27FDEBF500399EE7 /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
+		258D292027FE24FE00399EE7 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		258D292227FF1D3300399EE7 /* OtherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewCell.swift; sourceTree = "<group>"; };
+		258D292427FF4A9800399EE7 /* BudgetsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsViewCell.swift; sourceTree = "<group>"; };
+		258D292627FF6C7500399EE7 /* vc1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		258D28E527FDE5FD00399EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D28FB27FDE5FE00399EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D290527FDE5FF00399EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		258D28DF27FDE5FD00399EE7 = {
+			isa = PBXGroup;
+			children = (
+				258D28EA27FDE5FD00399EE7 /* VistaBancoSinStoryboard */,
+				258D290127FDE5FE00399EE7 /* VistaBancoSinStoryboardTests */,
+				258D290B27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests */,
+				258D28E927FDE5FD00399EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		258D28E927FDE5FD00399EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				258D28E827FDE5FD00399EE7 /* VistaBancoSinStoryboard.app */,
+				258D28FE27FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.xctest */,
+				258D290827FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		258D28EA27FDE5FD00399EE7 /* VistaBancoSinStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				258D28EB27FDE5FD00399EE7 /* AppDelegate.swift */,
+				258D28EF27FDE5FD00399EE7 /* ViewController.swift */,
+				258D292627FF6C7500399EE7 /* vc1.swift */,
+				258D28F427FDE5FE00399EE7 /* Assets.xcassets */,
+				258D28F627FDE5FE00399EE7 /* LaunchScreen.storyboard */,
+				258D28F927FDE5FE00399EE7 /* Info.plist */,
+				258D291D27FDE92500399EE7 /* Extensions */,
+				258D291E27FDEBF500399EE7 /* DetailViewCell.swift */,
+				258D292427FF4A9800399EE7 /* BudgetsViewCell.swift */,
+				258D292027FE24FE00399EE7 /* CardViewCell.swift */,
+				258D292227FF1D3300399EE7 /* OtherViewCell.swift */,
+			);
+			path = VistaBancoSinStoryboard;
+			sourceTree = "<group>";
+		};
+		258D290127FDE5FE00399EE7 /* VistaBancoSinStoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				258D290227FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.swift */,
+			);
+			path = VistaBancoSinStoryboardTests;
+			sourceTree = "<group>";
+		};
+		258D290B27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				258D290C27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.swift */,
+				258D290E27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITestsLaunchTests.swift */,
+			);
+			path = VistaBancoSinStoryboardUITests;
+			sourceTree = "<group>";
+		};
+		258D291D27FDE92500399EE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				258D291B27FDE91E00399EE7 /* UiViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		258D28E727FDE5FD00399EE7 /* VistaBancoSinStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258D291227FDE5FF00399EE7 /* Build configuration list for PBXNativeTarget "VistaBancoSinStoryboard" */;
+			buildPhases = (
+				258D28E427FDE5FD00399EE7 /* Sources */,
+				258D28E527FDE5FD00399EE7 /* Frameworks */,
+				258D28E627FDE5FD00399EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VistaBancoSinStoryboard;
+			productName = VistaBancoSinStoryboard;
+			productReference = 258D28E827FDE5FD00399EE7 /* VistaBancoSinStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		258D28FD27FDE5FE00399EE7 /* VistaBancoSinStoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258D291527FDE5FF00399EE7 /* Build configuration list for PBXNativeTarget "VistaBancoSinStoryboardTests" */;
+			buildPhases = (
+				258D28FA27FDE5FE00399EE7 /* Sources */,
+				258D28FB27FDE5FE00399EE7 /* Frameworks */,
+				258D28FC27FDE5FE00399EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				258D290027FDE5FE00399EE7 /* PBXTargetDependency */,
+			);
+			name = VistaBancoSinStoryboardTests;
+			productName = VistaBancoSinStoryboardTests;
+			productReference = 258D28FE27FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		258D290727FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258D291827FDE5FF00399EE7 /* Build configuration list for PBXNativeTarget "VistaBancoSinStoryboardUITests" */;
+			buildPhases = (
+				258D290427FDE5FF00399EE7 /* Sources */,
+				258D290527FDE5FF00399EE7 /* Frameworks */,
+				258D290627FDE5FF00399EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				258D290A27FDE5FF00399EE7 /* PBXTargetDependency */,
+			);
+			name = VistaBancoSinStoryboardUITests;
+			productName = VistaBancoSinStoryboardUITests;
+			productReference = 258D290827FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		258D28E027FDE5FD00399EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					258D28E727FDE5FD00399EE7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					258D28FD27FDE5FE00399EE7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 258D28E727FDE5FD00399EE7;
+					};
+					258D290727FDE5FF00399EE7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 258D28E727FDE5FD00399EE7;
+					};
+				};
+			};
+			buildConfigurationList = 258D28E327FDE5FD00399EE7 /* Build configuration list for PBXProject "VistaBancoSinStoryboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 258D28DF27FDE5FD00399EE7;
+			productRefGroup = 258D28E927FDE5FD00399EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				258D28E727FDE5FD00399EE7 /* VistaBancoSinStoryboard */,
+				258D28FD27FDE5FE00399EE7 /* VistaBancoSinStoryboardTests */,
+				258D290727FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		258D28E627FDE5FD00399EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258D28F827FDE5FE00399EE7 /* LaunchScreen.storyboard in Resources */,
+				258D28F527FDE5FE00399EE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D28FC27FDE5FE00399EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D290627FDE5FF00399EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		258D28E427FDE5FD00399EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258D28F027FDE5FD00399EE7 /* ViewController.swift in Sources */,
+				258D292527FF4A9800399EE7 /* BudgetsViewCell.swift in Sources */,
+				258D291F27FDEBF500399EE7 /* DetailViewCell.swift in Sources */,
+				258D292127FE24FE00399EE7 /* CardViewCell.swift in Sources */,
+				258D28EC27FDE5FD00399EE7 /* AppDelegate.swift in Sources */,
+				258D291C27FDE91E00399EE7 /* UiViewExtension.swift in Sources */,
+				258D292727FF6C7500399EE7 /* vc1.swift in Sources */,
+				258D292327FF1D3300399EE7 /* OtherViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D28FA27FDE5FE00399EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258D290327FDE5FE00399EE7 /* VistaBancoSinStoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D290427FDE5FF00399EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258D290F27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITestsLaunchTests.swift in Sources */,
+				258D290D27FDE5FF00399EE7 /* VistaBancoSinStoryboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		258D290027FDE5FE00399EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 258D28E727FDE5FD00399EE7 /* VistaBancoSinStoryboard */;
+			targetProxy = 258D28FF27FDE5FE00399EE7 /* PBXContainerItemProxy */;
+		};
+		258D290A27FDE5FF00399EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 258D28E727FDE5FD00399EE7 /* VistaBancoSinStoryboard */;
+			targetProxy = 258D290927FDE5FF00399EE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		258D28F627FDE5FE00399EE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				258D28F727FDE5FE00399EE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		258D291027FDE5FF00399EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		258D291127FDE5FF00399EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		258D291327FDE5FF00399EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VistaBancoSinStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.VistaBancoSinStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		258D291427FDE5FF00399EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VistaBancoSinStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.VistaBancoSinStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		258D291627FDE5FF00399EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.VistaBancoSinStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VistaBancoSinStoryboard.app/VistaBancoSinStoryboard";
+			};
+			name = Debug;
+		};
+		258D291727FDE5FF00399EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.VistaBancoSinStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VistaBancoSinStoryboard.app/VistaBancoSinStoryboard";
+			};
+			name = Release;
+		};
+		258D291927FDE5FF00399EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.VistaBancoSinStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VistaBancoSinStoryboard;
+			};
+			name = Debug;
+		};
+		258D291A27FDE5FF00399EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.VistaBancoSinStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VistaBancoSinStoryboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		258D28E327FDE5FD00399EE7 /* Build configuration list for PBXProject "VistaBancoSinStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258D291027FDE5FF00399EE7 /* Debug */,
+				258D291127FDE5FF00399EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258D291227FDE5FF00399EE7 /* Build configuration list for PBXNativeTarget "VistaBancoSinStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258D291327FDE5FF00399EE7 /* Debug */,
+				258D291427FDE5FF00399EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258D291527FDE5FF00399EE7 /* Build configuration list for PBXNativeTarget "VistaBancoSinStoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258D291627FDE5FF00399EE7 /* Debug */,
+				258D291727FDE5FF00399EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258D291827FDE5FF00399EE7 /* Build configuration list for PBXNativeTarget "VistaBancoSinStoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258D291927FDE5FF00399EE7 /* Debug */,
+				258D291A27FDE5FF00399EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 258D28E027FDE5FD00399EE7 /* Project object */;
+}
