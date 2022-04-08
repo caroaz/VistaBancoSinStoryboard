@@ -1,9 +1,4 @@
-//
-//  OtherViewCell.swift
-//  VistaBancoSinStoryboard
-//
-//  Created by Mobdev on 07-04-22.
-//
+
 
 import UIKit
 

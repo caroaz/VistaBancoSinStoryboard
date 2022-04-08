@@ -20,6 +20,7 @@
 		258D292327FF1D3300399EE7 /* OtherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292227FF1D3300399EE7 /* OtherViewCell.swift */; };
 		258D292527FF4A9800399EE7 /* BudgetsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292427FF4A9800399EE7 /* BudgetsViewCell.swift */; };
 		258D292727FF6C7500399EE7 /* vc1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292627FF6C7500399EE7 /* vc1.swift */; };
+		258D292927FFCE4600399EE7 /* FinanceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D292827FFCE4600399EE7 /* FinanceViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		258D292227FF1D3300399EE7 /* OtherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewCell.swift; sourceTree = "<group>"; };
 		258D292427FF4A9800399EE7 /* BudgetsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsViewCell.swift; sourceTree = "<group>"; };
 		258D292627FF6C7500399EE7 /* vc1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc1.swift; sourceTree = "<group>"; };
+		258D292827FFCE4600399EE7 /* FinanceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				258D292427FF4A9800399EE7 /* BudgetsViewCell.swift */,
 				258D292027FE24FE00399EE7 /* CardViewCell.swift */,
 				258D292227FF1D3300399EE7 /* OtherViewCell.swift */,
+				258D292827FFCE4600399EE7 /* FinanceViewCell.swift */,
 			);
 			path = VistaBancoSinStoryboard;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				258D28F027FDE5FD00399EE7 /* ViewController.swift in Sources */,
 				258D292527FF4A9800399EE7 /* BudgetsViewCell.swift in Sources */,
+				258D292927FFCE4600399EE7 /* FinanceViewCell.swift in Sources */,
 				258D291F27FDEBF500399EE7 /* DetailViewCell.swift in Sources */,
 				258D292127FE24FE00399EE7 /* CardViewCell.swift in Sources */,
 				258D28EC27FDE5FD00399EE7 /* AppDelegate.swift in Sources */,
